@@ -1,37 +1,4 @@
-body {
-  margin:0;
-  font-family: Arial;
-  background: #0b1220;
-  color:white;
-}
-
-/* LOGIN */
-#login {
-  height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.card {
-  background: rgba(255,255,255,0.05);
-  padding:20px;
-  margin:10px;
-  border-radius:15px;
-  backdrop-filter: blur(10px);
-  box-shadow:0 0 20px rgba(0,255,150,0.2);
-}
-
-/* TOP BAR */
-.topbar {
-  display:flex;
-  justify-content:space-around;
-  padding:10px;
-  background:#111827;
-}
-
-/* GRID */
-.grid {
+font-family: 
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap:10px;
@@ -87,5 +54,3 @@ button {
 
 /* FULL CARD */
 .full {
-  margin:10px;
-}
